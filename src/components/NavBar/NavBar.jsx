@@ -1,13 +1,13 @@
-import React from "react";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-md">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            Ala-Eh-scape
-          </a>
+          <div className="nav-link disabled">
+            <a className="navbar-brand text-success fw-light">Ala-Eh-scape</a>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
@@ -20,51 +20,53 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link text-success fw-light"
+                  aria-current="page"
+                  href="#"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
+                <a className="nav-link text-success fw-light" href="#">
+                  About
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle text-success fw-light"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown link
+                  Services
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
+                  <li className="nav-link disabled">
+                    <a className="dropdown-item text-success fw-light" href="#">
+                      Staycation
                     </a>
                   </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
+                  <li className="nav-link disabled">
+                    <a className="dropdown-item text-success fw-light" href="#">
+                      Adventure
                     </a>
                   </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
+                  <li className="nav-link disabled">
+                    <a className="dropdown-item text-success fw-light" href="#">
+                      Camping
                     </a>
                   </li>
                 </ul>
               </li>
             </ul>
+            <a className="btn btn-outline-success fw-light" href="#">
+              Sign In
+            </a>
           </div>
         </div>
       </nav>
