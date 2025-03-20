@@ -1,11 +1,11 @@
-import ListGroup from './components/ListGroup'
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
     <div>
-      <ListGroup/>
+      <NavBar />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
