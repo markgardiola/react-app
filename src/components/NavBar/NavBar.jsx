@@ -3,7 +3,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-md">
+      <nav className="navbar navbar-expand-md bg-body-tertiary">
         <div className="container">
           <div className="nav-link disabled">
             <a className="navbar-brand text-success fw-light">Ala-Eh-scape</a>
