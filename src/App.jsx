@@ -12,11 +12,14 @@ const App = () => {
       <NavBar />
       <div className="contiainer d-flex justify-content-center">
         <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="about" element={<AboutPage />} />
-          <Route path="exploreResorts" element={<ExploreResorts />} />
-          <Route path="chatWithSandyAI" element={<ChatWithSandyAI />} />
-          <Route path="signIn" element={<SignIn />} />
+          <Route path="react-app/" element={<LandingPage />} />
+          <Route path="react-app/about" element={<AboutPage />} />
+          <Route path="react-app/exploreResorts" element={<ExploreResorts />} />
+          <Route
+            path="react-app/chatWithSandyAI"
+            element={<ChatWithSandyAI />}
+          />
+          <Route path="react-app/signIn" element={<SignIn />} />
         </Routes>
       </div>
     </div>
