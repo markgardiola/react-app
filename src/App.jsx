@@ -10,11 +10,9 @@ const App = () => {
   return (
     <div>
       <NavBar />
-      <div className="container d-flex justify-content-center">
-        <LandingPage />
-      </div>
       <div className="contiainer d-flex justify-content-center">
         <Routes>
+          <Route path="/" element={<LandingPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="exploreResorts" element={<ExploreResorts />} />
           <Route path="chatWithSandyAI" element={<ChatWithSandyAI />} />
