@@ -33,29 +33,26 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav mx-auto">
-              <Link to="/react-app/" className="nav-link text-success fw-light">
+              <Link to="/" className="nav-link text-success fw-light">
                 <li className="nav-item">Home</li>
               </Link>
-              <Link
-                to="/react-app/about"
-                className="nav-link text-success fw-light"
-              >
+              <Link to="/about" className="nav-link text-success fw-light">
                 <li className="nav-item">About</li>
               </Link>
               <Link
-                to="/react-app/exploreResorts"
+                to="/exploreResorts"
                 className="nav-link text-success fw-light"
               >
                 <li className="nav-item">Explore Resorts</li>
               </Link>
               <Link
-                to="/react-app/chatWithSandyAI"
+                to="/chatWithSandyAI"
                 className="nav-link text-success fw-light"
               >
                 <li className="nav-item">Chat with Sandy AI</li>
               </Link>
             </ul>
-            <Link to="/react-app/signIn">
+            <Link to="/signIn">
               <a className="btn btn-outline-success fw-light">Sign In</a>
             </Link>
           </div>
