@@ -1,6 +1,8 @@
 <script>
-  var redirect = window.location.pathname;
-  if (redirect.startsWith("/react-app")) {
-    window.location.replace("/react-app" + window.location.search);
+  // Redirects users to the correct React route when they refresh or enter a deep link
+  var redirect = sessionStorage.redirect;
+  delete sessionStorage.redirect;
+  if (redirect && redirect !== location.href) {
+    history.replaceState(null, null, redirect);
   }
 </script>
