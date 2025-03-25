@@ -3,6 +3,10 @@
 
 .navbar {
   font-family: 'poppins', sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 2px solid #DCEE8A;
 }
 
 .navbar .navbar-brand{
