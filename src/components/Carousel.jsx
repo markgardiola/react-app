@@ -6,7 +6,7 @@ const Carousel = () => {
   return (
     <div
       id="carouselExampleCaptions"
-      className="carousel slide mt-5"
+      className="carousel slide"
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">

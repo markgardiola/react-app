@@ -1,13 +1,20 @@
 .container .row-heading .col h1 {
+  font-family: 'poppins', sans-serif;
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   letter-spacing: 30px;
   padding-left: 30px;
 }
 
-.container .row-heading .col p {
+.container .row .col h1 {
+  font-family: 'poppins', sans-serif;
   font-weight: 300;
   letter-spacing: 12px;
   padding-left: 30px;
+}
+
+.container .row .col p {
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
 }
 
 @media (max-width: 770px) {
@@ -31,5 +38,5 @@
 }
 
 .container-aboutPage {
-  height: 100vh;
+  height: 100%;
 }

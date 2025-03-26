@@ -4,14 +4,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div>
-      <nav
-        className="navbar navbar-expand-lg bg-transparent fixed-top"
-        style={{
-          background: "rgba(255, 255, 255, 0.7)",
-          backdropFilter: "blur(10px)",
-          WebkitBackdropFilter: "blur(10px)",
-        }}
-      >
+      <nav className="navbar navbar-expand-lg fixed-top bg-light">
         <div className="container text-success">
           <svg
             xmlns="http://www.w3.org/2000/svg"

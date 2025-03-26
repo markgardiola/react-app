@@ -1,6 +1,7 @@
 import React from "react";
 import friendsImage from "../assets/images/friends.avif";
 import "../components/aboutPage.css";
+import Footer from "./Footer";
 
 const AboutPage = () => {
   return (
@@ -60,7 +61,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="col d-flex align-items-center justify-content-center">
-          <div className="card" style={{ width: "28rem" }}>
+          <div className="card my-5" style={{ width: "28rem" }}>
             <img
               src={friendsImage}
               className="card-img-top"
@@ -76,6 +77,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
