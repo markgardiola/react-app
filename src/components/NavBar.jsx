@@ -45,12 +45,6 @@ const NavBar = () => {
               >
                 <li className="nav-item">Explore Resorts</li>
               </Link>
-              <Link
-                to="/chatWithSandyAI"
-                className="nav-link text-success fw-light"
-              >
-                <li className="nav-item">Chat with Sandy AI</li>
-              </Link>
             </ul>
             <Link to="/signIn">
               <a className="btn btn-outline-success fw-light">Sign In</a>

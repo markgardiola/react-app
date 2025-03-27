@@ -1,11 +1,10 @@
 import React from "react";
 import friendsImage from "../assets/images/friends.avif";
 import "../components/aboutPage.css";
-import Footer from "./Footer";
 
 const AboutPage = () => {
   return (
-    <div className="container pt-5 mt-5 container-aboutPage" id="destinations">
+    <div className="container pt-5 px-0 mt-5 container-aboutPage">
       <div className="row-heading">
         <div className="col">
           <h1 className="display-5 mb-5 text-uppercase text-center">
@@ -77,7 +76,6 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

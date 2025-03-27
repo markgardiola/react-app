@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 import SignIn from "./components/SignIn";
 import Carousel from "./components/Carousel";
 import ExploreResorts from "./components/ExploreResorts";
-import ChatWithSandyAI from "./components/ChatWithSandyAI";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,10 +18,10 @@ const App = () => {
         <Routes>
           <Route path="about" element={<AboutPage />} />
           <Route path="exploreResorts" element={<ExploreResorts />} />
-          <Route path="chatWithSandyAI" element={<ChatWithSandyAI />} />
           <Route path="signIn" element={<SignIn />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 };
