@@ -33,16 +33,13 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav mx-auto">
-              <Link to="/" className="nav-link text-success fw-light">
+              <Link to="/" className="nav-link fw-light">
                 <li className="nav-item">Home</li>
               </Link>
-              <Link to="/about" className="nav-link text-success fw-light">
+              <Link to="/about" className="nav-link fw-light">
                 <li className="nav-item">About</li>
               </Link>
-              <Link
-                to="/exploreResorts"
-                className="nav-link text-success fw-light"
-              >
+              <Link to="/exploreResorts" className="nav-link fw-light">
                 <li className="nav-item">Explore Resorts</li>
               </Link>
             </ul>
